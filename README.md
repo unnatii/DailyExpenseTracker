@@ -5,8 +5,9 @@
 
 
 -**Getting Started**
-mkdir djangoProject
-git clone https://github.com/ChristianKreuzberger/django-rest-imageupload-example.git
+>mkdir djangoProject
+>git clone https://github.com/
+
 cd django-rest-imageupload-example
 mkdir uploaded_media # create a directory for the uploaded images
 virtualenv -p python3.4 venv # Note: python3.5 should also work
