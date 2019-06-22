@@ -3,7 +3,7 @@
 
 
 
--**Getting Started**
+#Getting Started
 >The Peekaboo box can will animate into the web page at any desired scroll point.
 
 
