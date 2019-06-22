@@ -29,8 +29,6 @@
 
 
 
-
-
 -**Prerequisites**
 >django 1.11
 
@@ -38,5 +36,8 @@
 
 
 
-
 -**Future work**
+>password reset via email
+
+>filter list according to particular type , month , year or name
+
