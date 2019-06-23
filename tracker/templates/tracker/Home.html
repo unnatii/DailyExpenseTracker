@@ -1,0 +1,43 @@
+{% extends 'tracker/base.html' %}
+{% load crispy_forms_tags %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	{% load static %}
+    <link rel="stylesheet" href="{% static 'tracker/style.css'%}" type="text/css">
+
+
+{% block content %}
+
+
+    <div class="row">
+        <div class="col">
+			<div class="row justify-content-md-center">
+		     <img src="{% static 'tracker/images/d2.jpg' %}" id="det" style="height:700px;width:700px">
+		 </div>
+		 </div>
+		 
+
+		<div class="col">
+			<div class ="centered">
+				<div style="font-size:30px;margin:70px 0px 10px 140px;">Expense Details:</div>
+				<div style="margin:20px 0px 50px 140px;">
+		    <form method="POST">
+		      {% csrf_token %}
+		 	 <fieldset class="form-group">
+		 		{{ form |crispy }}
+		      </fieldset>
+		 	 <div class="form-group">
+		 		 <button class="btn btn-outline-info" type=submit>Add Expense</button>
+		 	 </div>
+		    </form>
+		</div>
+		   </div>
+		   
+	  </div>
+
+		
+		
+
+
+	
+  
+{% endblock %}

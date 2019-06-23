@@ -1,0 +1,34 @@
+{% extends 'tracker/base.html' %}
+
+{% block content %}
+   {% if expenses_list %}
+   <table class="table table-hover">
+	   <thead>
+	     <tr>
+	       
+		   <th scope="col"><center>Date</center></th>
+	       <th scope="col"><center>name</center></th>
+	       <th scope="col"><center>Amount</center></th>
+	       <th scope="col"><center>Expense Type</center></th>
+	     </tr>
+	   </thead>
+	   
+	   <tbody>
+		   {% for expense in expenses_list %}
+	     <tr>
+	  
+		   <td><center>{{ expense.date|date:"F d, Y" }}</center></td>
+	       <td><center>{{ expense.name }}</center></td>
+	       <td><center>{{ expense.amount }}</center></td>
+	       <td><center>{{ expense.exp_type }}</center></td>
+		
+	     </tr>
+           {% endfor %}
+	    </tbody>
+	  </table>
+   {% else %}
+       <p>No expenses .</p>
+   {% endif %}
+{% endblock %}
+
+
