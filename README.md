@@ -26,7 +26,7 @@
 
 >python manage.py runserver # starts the server 
 
-##go to browser and open ' localhost:8000/Home '
+Note: go to browser and open ' localhost:8000/Home '
 
 
 -**Prerequisites**
