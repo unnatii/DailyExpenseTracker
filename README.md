@@ -8,17 +8,17 @@
 
 >mkdir djangoProject
 
+>virtualenv det
+
+>cd det
+
 >git clone https://github.com/unnatii/DailyExpenseTracker.git
-
->virtualenv DET
-
->cd DET
 
 >source bin/activate
 
->sudo pip install django==1.11
+>sudo pip install django 
 
->crispy
+>pip install django-crispy-forms
 
 >cd dailyExpenses
 
@@ -26,7 +26,7 @@
 
 >python manage.py runserver # starts the server 
 
-
+##go to browser and open ' localhost:8000/Home '
 
 
 -**Prerequisites**
