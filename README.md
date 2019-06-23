@@ -41,3 +41,7 @@ Note: go to browser and open ' localhost:8000/Home '
 
 >filter list according to particular type , month , year or name
 
+>deploy to linux server
+
+>Custom Domain Name for Our Application
+
