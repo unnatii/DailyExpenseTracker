@@ -20,7 +20,7 @@
 
 >pip install django-crispy-forms
 
->cd dailyExpenses
+>cd DailyExpenseTracker
 
 >python manage.py migrate
 
