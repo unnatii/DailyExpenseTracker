@@ -8,7 +8,7 @@
 
 >mkdir djangoProject
 
->git clone https://github.com/
+>git clone https://github.com/unnatii/DailyExpenseTracker.git
 
 >virtualenv DET
 
