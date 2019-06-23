@@ -1,0 +1,15 @@
+{% extends 'tracker/base.html' %}
+{% block content %}
+<div class="container" >
+   <div  style="height:150px;padding:20px 20px 10px 20px;background-color:#EAF2F8;color: #0D62A2;margin:200px 0px 0px 350px;position:fixed;" >
+<h2>You have been logged out!!</h2>
+   <div class="border-top pt-3">
+	   <small class="text-muted">
+		   Log-in again? <a class="ml-2" href="{% url 'login' %}">Log-in</a>
+	   </small>
+   
+</div>
+</div>
+</div>
+{% endblock %}
+  
