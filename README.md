@@ -30,9 +30,9 @@ Note: go to browser and open ' localhost:8000/Home '
 
 >register your account
 
-Note : for root user :
->username= root
->password=rootpassword
+Note : for superuser :
+>username= root , 
+> password=rootpassword
 
 
 -**Prerequisites**
