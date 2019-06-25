@@ -8,25 +8,31 @@
 
 >mkdir djangoProject
 
+>virtualenv det
+
+>cd det
+
 >git clone https://github.com/unnatii/DailyExpenseTracker.git
-
->virtualenv DET
-
->cd DET
 
 >source bin/activate
 
->sudo pip install django==1.11
+>sudo pip install django 
 
->crispy
+>pip install django-crispy-forms
 
->cd dailyExpenses
+>cd DailyExpenseTracker
 
 >python manage.py migrate
 
 >python manage.py runserver # starts the server 
 
+Note: go to browser and open ' localhost:8000/Home '
 
+>register your account
+
+Note : for superuser :
+>username= root , 
+> password=rootpassword
 
 
 -**Prerequisites**
@@ -40,4 +46,8 @@
 >password reset via email
 
 >filter list according to particular type , month , year or name
+
+>deploy to linux server
+
+>Custom Domain Name for Our Application
 
