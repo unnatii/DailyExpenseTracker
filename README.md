@@ -26,11 +26,11 @@
 
 >python manage.py runserver # starts the server 
 
--**Note: go to browser and open ' localhost:8000/Home '
+-**Note: go to browser and open ' localhost:8000/Home '**
 
 >register your account
 
--**Note : for superuser :
+-**Note : for superuser:**
 >username= root , 
 > password=rootpassword
 
