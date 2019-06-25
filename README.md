@@ -51,5 +51,12 @@ Note : for superuser :
 
 >Custom Domain Name for Our Application
 
+## Working
+![App Working](reg.png)
 ![App Working](login.png)
-![](screenshots/Screen Shot 2019-06-24 at 6.14.50 PM.png)
+![App Working](hm.png)
+![App Working](list.png)
+![App Working](modify.png)
+
+
+
