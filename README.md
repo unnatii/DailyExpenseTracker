@@ -8,6 +8,8 @@
 
 >mkdir djangoProject
 
+>cd djangoProject
+
 >virtualenv det
 
 >cd det
